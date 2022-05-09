@@ -20,12 +20,12 @@ This is an educational repository that contains homeworks, completed as part of 
  }
  step(1)
 ```
-### 2. Написать скрипт, который выведет 5 строк в консоль таким образом, чтобы в первой строчке выводилось :), во второй :):) и так далее
- Пример в консоли:
-  :)
-  :):)
-  :):):)
-  :):):):)
+### 2. Написать скрипт, который выведет 5 строк в консоль таким образом, чтобы в первой строчке выводилось :), во второй :):) и так далее  
+ Пример в консоли:  
+  :)  
+  :):)  
+  :):):)  
+  :):):):)  
   :):):):):)
 ```
  let stroka = ':)'
@@ -36,7 +36,7 @@ This is an educational repository that contains homeworks, completed as part of 
      numberOfRows++
  }
 ```
-### 2*. Преобразовать 2 задачу в функцию, принимающую на вход строку, которая и будет выводиться в консоль (как в условии смайлик), а также количество строк для вывода e.g. function printSmile(stroka, numberOfRows)
+### 2*. Преобразовать 2 задачу в функцию, принимающую на вход строку, которая и будет выводиться в консоль (как в условии смайлик), а также количество строк для вывода   e.g. function printSmile(stroka, numberOfRows)
 ```
  let stroka = '(^)'
  let numberOfRows = 1
@@ -49,10 +49,10 @@ This is an educational repository that contains homeworks, completed as part of 
  }
  printSmile('(^)', 1)
 ```
-### 3**.  Написать функцию, которая принимает на вход слово. Задача функции посчитать и вывести в консоль, сколько в слове гласных, и сколько согласных букв.
-  e.g. function getWordStructure(word)
-  В консоли: 
-  Слово (word) состоит из  (число) гласных и (число) согласных букв
+### 3**.  Написать функцию, которая принимает на вход слово. Задача функции посчитать и вывести в консоль, сколько в слове гласных, и сколько согласных букв.  
+  e.g. function getWordStructure(word)  
+  В консоли:   
+  Слово (word) состоит из  (число) гласных и (число) согласных букв  
   Проверки: 'case', 'Case', 'Check-list'
 ```
  function getWordStructure(word) {
@@ -75,8 +75,8 @@ This is an educational repository that contains homeworks, completed as part of 
  getWordStructure('Case')
  getWordStructure('Check-list')
 ```
-### 4**. Написать функцию, которая проверяет, является ли слово палиндромом
-  e.g. function isPalindrom(word)
+### 4**. Написать функцию, которая проверяет, является ли слово палиндромом  
+  e.g. function isPalindrom(word)  
   Проверки: 'abba', 'Abba'
 ```
 function Findpalindrome(TestStr) {
